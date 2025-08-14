@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"jsx": "react-jsx",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"declaration": true, // Bật sinh .d.ts
+		"declarationMap": true, // Optional: Tạo map cho debug
+		"outDir": "dist", // Output trực tiếp vào dist/
+		"rootDir": "src", // Source root
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"] // Alias cho import dễ dàng
+		}
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "dist", "storybook-static"]
+}
