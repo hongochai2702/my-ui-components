@@ -1,8 +1,7 @@
 import React from "react";
 
-import { Header } from "./Header";
 import "./page.css";
-import accessibility from "../assets/accessibility.png";
+import { Header } from "../header";
 export type User = {
 	name: string;
 };
@@ -18,11 +17,7 @@ export const Page: React.FC = () => {
 				onLogout={() => setUser(undefined)}
 				onCreateAccount={() => setUser({ name: "Jane Doe" })}
 			/>
-			<img
-				src={accessibility}
-				alt="Accessibility"
-				className="accessibility-image"
-			/>
+
 			<section className="storybook-page">
 				<h2>Pages in Storybook</h2>
 				<p>

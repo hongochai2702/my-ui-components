@@ -1,3 +1,11 @@
-export * from "./stories/Button";
-export * from "./stories/Header";
-export * from "./stories/Page";
+// export { Button } from "./components/button";
+// export { Header } from "./components/header";
+export { Page } from "./components/page";
+export { default as Button } from "./components/atoms/Button";
+export { default as Input } from "./components/atoms/Input";
+export { default as Label } from "./components/atoms/Label";
+export { default as Icon } from "./components/atoms/Icon";
+export { default as FormField } from "./components/molecules/FormField";
+export { default as Card } from "./components/molecules/Card";
+export { default as Header } from "./components/organisms/Header";
+export { default as Footer } from "./components/organisms/Footer";
